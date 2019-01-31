@@ -1,0 +1,15 @@
+'CodeQ.SimpleVoting:Content.Survey.Option':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Survey Option'
+    icon: icon-check-square
+    position: 100
+  properties:
+    title:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Enter title here...'
+            formatting:
+              a: false

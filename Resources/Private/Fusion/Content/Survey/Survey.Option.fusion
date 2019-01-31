@@ -1,0 +1,12 @@
+prototype(CodeQ.SimpleVoting:Content.Survey.Option) < prototype(Neos.Neos:ContentComponent) {
+    content = Neos.Neos:Editable {
+        property = 'title'
+    }
+
+    renderer = afx`
+    	<div class="codeq-simplevoting-survey-option">
+    		TODO
+    		{title}
+    	</div>
+    `
+}

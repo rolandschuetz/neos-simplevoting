@@ -1,0 +1,19 @@
+'CodeQ.SimpleVoting:Content.Survey':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    label: 'Survey'
+    icon: icon-poll-h
+    position: 500
+  constraints:
+    nodeTypes:
+      '*': ~
+      'CodeQ.SimpleVoting:Content.Survey.Option': true
+  options:
+    template:
+      childNodes:
+        itemNode1:
+          type: 'CodeQ.SimpleVoting:Content.Survey.Option'
+        itemNode2:
+          type: 'CodeQ.SimpleVoting:Content.Survey.Option'

@@ -1,0 +1,25 @@
+{
+    "name": "codeq/simplevoting",
+    "description": "A simple voting package",
+    "type": "neos-package",
+    "license": "MIT",
+    "keywords": ["flow", "neos", "fusion", "voting"],
+    "require": {
+        "neos/neos": "~4.0 || dev-master",
+        "neos/fusion-afx": "^1.0 || dev-master",
+        "flowpack/nodetemplates": "~1.0 || dev-master"
+    },
+    "archive": {
+        "exclude": [
+            ".editorconfig",
+            ".gitattributes",
+            ".github",
+            ".gitignore"
+        ]
+    },
+    "extra": {
+        "neos": {
+            "package-key": "CodeQ.SimpleVoting"
+        }
+    }
+}

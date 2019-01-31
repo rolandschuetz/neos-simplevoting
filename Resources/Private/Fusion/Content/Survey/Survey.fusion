@@ -1,0 +1,6 @@
+prototype(CodeQ.SimpleVoting:Content.Survey) < prototype(Neos.Neos:ContentComponent) {
+    renderer = Neos.Neos:ContentCollection {
+        attributes.class = 'codeq-simplevoting-survey'
+        nodePath = ''
+    }
+}
